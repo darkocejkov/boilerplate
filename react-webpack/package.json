@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "npx webpack && cp -rp ./public ../app/assets/javascripts/views/react",
-    "serve:node": "nodemon server.js",
+    "webpack": "npx webpack --config ./config/webpack.config.js && cp -rp ./public ../app/assets/javascripts/views/react",
+    "serve:node": "nodemon server/server.js",
     "serve": "npx webpack serve"
   },
   "author": "",
