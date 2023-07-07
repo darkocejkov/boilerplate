@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <!--    Filesystem Bundle    -->
+  <script type="application/javascript" src="./build/library.js"></script>
+
+  <!--    Memory/DevServer bundle    -->
+  <script type="application/javascript" src="./library.js"></script>
+
+</head>
+<body>
+
+<div id="root">
+</div>
+
+<script type="text/javascript">
+  ReactLibrary && ReactLibrary.reactRender && ReactLibrary.reactRender(document.getElementById("root"))
+</script>
+
+</body>
+
+
+</html>
